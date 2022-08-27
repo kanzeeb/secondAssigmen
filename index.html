@@ -9,13 +9,13 @@
     <title>Awesome CSS</title>
   </head>
   <body>
-    <div class="hero--container T-pd-20">
+    <header class="hero--container T-pd-20">
       <div class="flex-container">
         <div>  
           <div>      
             <h1 class="logo--text">header logo</h1> 
           </div>
-          <div class="text--container T-mrg-90">
+          <article class="text--container T-mrg-90">
             <h1 class="primary--text T-pd-20">
               This website is awesome
             </h1>
@@ -27,46 +27,52 @@
             <a href="#" class="btn">
               Sign up
             </a>
-          </div>
+          </article>
         </div>
         <div>  
-          <div class="menu">
-            <div><a href="#" class="secondary--text">header link one</a></div>
-            <div><a href="#" class="secondary--text">header link two</a></div>
-            <div><a href="#" class="secondary--text">header link three</a></div>
-          </div>
+          <nav class="menu">
+            <a href="#" class="secondary--text">header link one</a>
+            <a href="#" class="secondary--text">header link two</a>
+            <a href="#" class="secondary--text">header link three</a>
+          </nav>
           <div class="image--placeholder T-mrg-120">
             <p class="secondary--text">This is a placeholder for an image</p>
           </div> 
         </div>          
       </div>      
-    </div>
+    </header>
 
-    <div>
+    <section>
       <h1 class="dark--text">
         Some random information.
       </h1>
       <div class="ilustration--container">
-        <div class="image-subtext--container">
-          <div class="box"></div>
-          <p class="subtext--text">this is some subtext under an ilustration or image</p>
-        </div>
-        <div class="image-subtext--container">
-          <div class="box"></div>
-          <p class="subtext--text">this is some subtext under an ilustration or image</p>
-        </div>
-        <div class="image-subtext--container">
-          <div class="box"></div>
-          <p class="subtext--text">this is some subtext under an ilustration or image</p>
-        </div>
-        <div class="image-subtext--container">
-          <div class="box"></div>
-          <p class="subtext--text">this is some subtext under an ilustration or image</p>
-        </div>
+        <figure class="image-subtext--container">
+          <img class="box" alt="ilustration or image use as an example">
+          <figcaption class="subtext--text">
+            this is some subtext under an ilustration or image</figcaption>
+        </figure>
+        <figure class="image-subtext--container">
+          <img class="box" alt="ilustration or image use as an example">
+          <figcaption class="subtext--text">
+            this is some subtext under an ilustration or image</figcaption>
+        </figure>
+        <figure class="image-subtext--container">
+          <img class="box" alt="ilustration or image use as an example">
+          <figcaption class="subtext--text">
+            this is some subtext under an ilustration or image
+          </figcaption>
+        </figure>
+        <figure class="image-subtext--container">
+          <img class="box" alt="ilustration or image use as an example">
+          <figcaption class="subtext--text">
+            this is some subtext under an ilustration or image
+          </figcaption>
+        </figure>
       </div>
-    </div>
+    </section>
 
-    <div class="quote--container">
+    <blockquote class="quote--container">
       <div class="quote--box">
         <p class="dark--text quote--text">
           This an inspiring quote, or a testimonial from a customer.
@@ -75,9 +81,9 @@
         </p>
         <p class="testimonial--auth-text">-Thor</p>              
       </div>      
-    </div>
+    </blockquote>
 
-    <div class="cta--container">
+    <section class="cta--container">
       <div>
         <p class="logo--text">
           Call to action! It's time!<br>
@@ -89,12 +95,12 @@
       <div>
         <a href="#" class="btn btn-border">Sign up</a>
       </div>
-    </div>
+    </section>
 
-    <div class="footer">
+    <footer class="footer">
       <p class="secondary--text footer--text-padding">
         copyright &#169;
       </p> 
-    </div>
+    </footer>
   </body>
 </html>
